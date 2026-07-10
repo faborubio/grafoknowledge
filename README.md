@@ -95,8 +95,8 @@ frontend/     # React + Vite + Tailwind (constelación 3D en Fase 4)
 
 | Fase | Entrega | Estado |
 |---|---|---|
-| 0 | Fundación: scaffold, Neo4j, esquema PKM, gates | 🔨 En curso |
-| 1 | Pipeline de extracción con provenance | ⬜ |
+| 0 | Fundación: scaffold, Neo4j, esquema PKM, gates | ✅ Hito verificado (gates de costo/corpus abiertos) |
+| 1 | Pipeline de extracción con provenance | 🔜 Siguiente |
 | 2 | Resolución de entidades (el muro) | ⬜ |
 | 3 | Q&A en lenguaje natural (dos rutas) | ⬜ |
 | 4 | Visualización "constelación de conocimiento" | ⬜ |
