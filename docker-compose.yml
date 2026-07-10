@@ -3,7 +3,8 @@ services:
     image: neo4j:5-community
     container_name: grafoknowledge-neo4j
     ports:
-      - "7474:7474" # Browser
+      # 8474 en el host: Windows excluye el rango 7431-7530 (Hyper-V/WSL) y se traga el 7474
+      - "8474:7474" # Browser -> http://localhost:8474
       - "7687:7687" # Bolt
     environment:
       NEO4J_AUTH: neo4j/grafoknowledge-dev

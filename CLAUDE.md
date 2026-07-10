@@ -21,7 +21,7 @@ Método de trabajo: `../metodo/MANIFIESTO.md` (proporcionalidad, ADRs, DoD por f
 
 ```bash
 npm install              # instala workspaces (backend + frontend)
-npm run db:up            # levanta Neo4j (Docker) — Browser en http://localhost:7474
+npm run db:up            # levanta Neo4j (Docker) — Browser en http://localhost:8474
 npm run db:init          # crea constraints + índice vectorial (idempotente)
 npm run dev              # backend (:3001) + frontend (:5173) en paralelo
 npm run typecheck        # tsc en ambos workspaces

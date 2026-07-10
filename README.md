@@ -72,7 +72,7 @@ git clone https://github.com/faborubio/grafoknowledge.git
 cd grafoknowledge
 cp .env.example .env      # completar keys (nunca van al repo)
 npm install
-npm run db:up             # Neo4j en Docker — Browser en http://localhost:7474
+npm run db:up             # Neo4j en Docker — Browser en http://localhost:8474
 npm run db:init           # constraints + índice vectorial (idempotente)
 npm run dev               # backend :3001 + frontend :5173
 ```
