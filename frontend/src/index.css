@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Design tokens de la "constelación de conocimiento" (ADR-007):
+   fondo casi-negro + acentos neón por tipo de entidad. Coherentes con la viz 3D. */
+@theme {
+  --color-void: #07070f;
+  --color-surface: #10101c;
+  --color-starlight: #e8e6f0;
+  --color-muted: #8b87a0;
+
+  /* Un acento por tipo de entidad del dominio PKM */
+  --color-concepto: #5eead4;
+  --color-persona: #f0abfc;
+  --color-proyecto: #93c5fd;
+  --color-fuente: #fcd34d;
+  --color-herramienta: #a5b4fc;
+}

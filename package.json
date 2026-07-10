@@ -1,0 +1,20 @@
+{
+  "name": "grafoknowledge",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Constructor de grafo de conocimiento con IA — extracción de entidades/relaciones con Claude, grafo Neo4j consultable en lenguaje natural",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,magenta \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:init": "npm run db:init -w backend",
+    "typecheck": "npm run typecheck -w backend && npm run typecheck -w frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

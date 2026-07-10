@@ -1,0 +1,17 @@
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: grafoknowledge-neo4j
+    ports:
+      - "7474:7474" # Browser
+      - "7687:7687" # Bolt
+    environment:
+      NEO4J_AUTH: neo4j/grafoknowledge-dev
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - ./neo4j-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
