@@ -6,7 +6,9 @@ grafo en lenguaje natural con respuestas ancladas a fuentes.
 
 **Fuente de verdad del diseño:** [SAD-grafoknowledge.md](SAD-grafoknowledge.md) (v1.1.0).
 Detalle operativo: [plan-grafo-conocimiento-v2.md](plan-grafo-conocimiento-v2.md).
-Método de trabajo: `../metodo/MANIFIESTO.md` (proporcionalidad, ADRs, DoD por fase).
+Método de trabajo: MANIFIESTO v1.1.0 en
+`\\wsl.localhost\Ubuntu-24.04\home\faborubio\Workspace\metodo\MANIFIESTO.md`
+(proporcionalidad, ADRs, DoD por fase).
 
 ## Stack
 
